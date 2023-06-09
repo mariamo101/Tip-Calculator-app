@@ -30,7 +30,7 @@ This small app is perfect for anyone starting to get to grips with JavaScript. T
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
