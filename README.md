@@ -68,6 +68,9 @@ function calculate() {
     }
   }
 ```
+## GIF
+
+<img src="https://media.giphy.com/media/rGCsEXOlFtD2JsKlwa/giphy.gif" />
 
 
 
