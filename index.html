@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+ <!-- this is whole Container -->
+  <div class="background-container">
+    <section class="spli-tter">SPLI <br> TTER</section>
+
+    <!--this is Calculator-->
+    <div class="white-container">
+
+      <div class="side-of-values">
+
+  <!--in this code are every input, bill,percent and number of people-->      
+      <div class="bill-input-section">
+    <h2 class="bill-h2">Bill</h2>
+    <section class="bill-input">
+      <p class = "error" id = "billError">Can't be zero</p>
+      <input  class="input_bill "type="number"  placeholder="0" id="bill">
+      <img src="./images/icon-dollar.svg" alt="dolar"/>
+    </section>
+    </div>
+
+    <div class="tip">
+        <div class="select-tip"><p>Select Tip %</p></div>
+        <div class="tip-Button">
+          <button name = "tipPercentage" class="tip_button" id = "tip_5" value = "5" type = "submit">5%</button>
+          <button name = "tipPercentage" class="tip_button" id = "tip_10" value = "10" type = "submit">10%</button>
+          <button name = "tipPercentage" class="tip_button" id = "tip_15" value = "15" type = "submit">15%</button>
+          <button name = "tipPercentage" class="tip_button" id = "tip_20" value = "20" type = "submit">20%</button>
+          <button name = "tipPercentage" class="tip_button" id = "tip_50" value = "50" type = "submit">50%</button>
+          <input type="number" placeholder="Custom" class="custom1" id="custom1" type = "submit">
+        </div>
+     </div>
+
+    <div class="people-section">
+      <label for="people"> <p>Number of People</p></label>
+      <p class = "error" id = "peopleError">Can't be zero</p>
+      <section class="people-input">
+
+        <input type="number" placeholder="0" id="people">
+        <img src="./images/icon-person.svg" alt="person"/>
+      </section>
+    </div>
+</div>
+<!--this section end here-->
+
+  <div class="green-container">
+    <section class="amount">
+    <p id="tip-amount">Tip Amount <br> <span>/ person</span></p>
+    <h2 class="dollar" id = "amount" >$0.00</h2>
+    </section>
+
+    <section class="total">
+    <p id="total-p">Total <br> <span>/ person</span></p>
+
+    <h2 id="total">$0.00</h2>
+    </section>
+
+    <button class="reset" id="reset"><p>Reset</p></button>
+  </div>
+</div>
+<!--Calculator end here-->
+  </div>
+  <!--Container end here-->
+ <script src="./MyScript.js"></script>
+</body>
+</html>
