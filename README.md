@@ -22,10 +22,10 @@ This small app is perfect for anyone starting to get to grips with JavaScript. T
 - Calculate the correct tip and total cost of the bill per person
 
 ### Screenshot
+<img width="1018" alt="Screenshot 2023-06-09 at 19 29 27" src="https://github.com/mariamo101/testing/assets/117212859/17d3be4e-2fff-4751-828e-75d820ba8ca4">
 
-<img width="1018" alt="Screenshot 2023-06-09 at 19 29 27" src="https://github.com/mariamo101/Tip-Calculator/assets/117212859/c33e8dd4-f3f5-45e2-8e5d-2f1ead43fdf6"/>
+<img width="759" alt="Screenshot 2023-06-09 at 19 32 12" src="https://github.com/mariamo101/testing/assets/117212859/9ae6786d-521a-4df0-b878-e5c54c3e9bda">
 
-<img width="759" alt="Screenshot 2023-06-09 at 19 32 12" src="https://github.com/mariamo101/Tip-Calculator/assets/117212859/89422258-5b74-4b11-88b5-ca86aa67cf13"/>
 
 
 ### Links
