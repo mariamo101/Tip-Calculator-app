@@ -219,7 +219,7 @@ span{
         min-width: 30rem;
     }  
 }
-@media  screen and (min-width:1000px) {
+@media  screen and (min-width:1200px) {
     .background-container{
         align-items: center;
         justify-content: center;
@@ -229,7 +229,7 @@ span{
         flex-direction: row;
         min-width: 57.5rem;
         padding: 0;
-        margin-bottom: 14.938rem;
+     /*   margin-bottom: 10rem;*/
         align-items: center;
         padding: 2rem 2rem 0 0rem;
         justify-content: flex-start;
@@ -238,7 +238,7 @@ span{
         margin: 0;
     }
     .spli-tter{
-         margin: 10.188rem 0 5.5rem 0;
+      /*   margin: 10.188rem 0 5.5rem 0;*/
     }
     .tip-Button{
         display: grid;
