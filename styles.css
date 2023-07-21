@@ -45,6 +45,7 @@ input{
 .background-container{
     display: flex;
     flex-direction: column;
+    max-height: 100vh;
 }
 .spli-tter{
     text-align: center;
@@ -75,7 +76,7 @@ input{
     width: 20.438rem;
     padding: 2.313rem 1.375rem 1.5rem 1.5rem;
     background-color: var(--Very-dark-cyan);
-    margin: 2rem 1rem 2rem 2rem;
+    margin: 2rem auto 2rem auto;
     border-radius: 15px;
 }
 .bill-input img,
@@ -91,6 +92,7 @@ label,.bill-h2,.select-tip,#tip-amount,#total-p{
 }
 label,.bill-h2,.select-tip{
     padding-left: 0.5rem;
+    margin-top: 0.5rem;
 }
 label,.bill-h2,.select-tip,span{
     color: var(--Grayish-cyan);
